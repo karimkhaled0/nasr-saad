@@ -8,13 +8,13 @@ const Banner = (props: Props) => {
         <div className="relative bg-[#B1853D]/90 h-screen w-full text-center">
             {/* Header */}
             <ul className='flex items-center justify-center space-x-5'>
-                <Link href='#contact' className='font-cairo md:text-xl text-base text-white font-medium cursor-pointer z-30'>
+                <Link href='#contact' className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>
                     تواصل معنا
                 </Link>
-                <Link className='font-cairo md:text-xl text-base text-white font-medium cursor-pointer z-30' href='#services'>
+                <Link className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30' href='#services'>
                     خدماتنا
                 </Link>
-                <Link className='font-cairo md:text-xl text-base text-white font-medium cursor-pointer z-30' href='#home'>
+                <Link className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30' href='#home'>
                     <Image
                         src='/logo.png'
                         alt='LOGO'
@@ -24,10 +24,10 @@ const Banner = (props: Props) => {
                         priority
                     />
                 </Link>
-                <Link className='font-cairo md:text-xl text-base text-white font-medium cursor-pointer z-30' href='#partners'>
+                <Link className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30' href='#partners'>
                     الشركاء
                 </Link>
-                <Link className='font-cairo md:text-xl text-base text-white font-medium cursor-pointer z-30' href='#about'>
+                <Link className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30' href='#about'>
                     من نحن
                 </Link>
             </ul>
