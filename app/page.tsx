@@ -1,3 +1,4 @@
+'use client'
 import About from '@/components/About'
 import Banner from '@/components/Banner'
 import Contact from '@/components/Contact'
@@ -5,15 +6,14 @@ import Footer from '@/components/Footer'
 import Number from '@/components/Number'
 import Partners from '@/components/Partners'
 import Services from '@/components/Services'
-import React from 'react'
 
 type Props = {}
 
 const page = (props: Props) => {
     return (
-        <div>
+        <div className='h-screen overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-track-white scrollbar-thumb-[#b99150]'>
             {/* Banner */}
-            <section id='#home'>
+            <section id='home'>
                 <Banner />
             </section>
             {/* Number Section */}
@@ -21,19 +21,19 @@ const page = (props: Props) => {
                 <Number />
             </section>
             {/* About */}
-            <section id='#about'>
+            <section id='about'>
                 <About />
             </section>
             {/* People */}
-            <section id='#partners'>
+            <section id='partner'>
                 <Partners />
             </section>
             {/* Services */}
-            <section id='#services'>
+            <section id='service'>
                 <Services />
             </section>
             {/* Contuct Us */}
-            <section id='#contact'>
+            <section id='contact'>
                 <Contact />
             </section>
             {/* Footer */}

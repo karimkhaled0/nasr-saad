@@ -11,5 +11,5 @@ module.exports = {
       cairo: ["Cairo", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };

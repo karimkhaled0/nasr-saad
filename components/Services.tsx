@@ -57,8 +57,8 @@ const Services = (props: Props) => {
             <div className="space-y-10">
                 <h1 className="text-center font-cairo font-extrabold text-[#B1853D] md:text-4xl text-xl">الاستشارة القانونية الجنائية</h1>
 
-                <div className="xl:w-[1200px] md:w-[900px] w-[350px] md:h-[250px] h-[100px] bg-gradient-to-r from-[#191248] to-[#B1853D] mx-auto rounded-[100px] relative">
-                    <h4 className="md:text-2xl text-sm text-center md:w-[800px] w-[250px] text-white font-cairo font-semibold tracking-wide absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="xl:w-[1200px] md:w-[900px] md:h-[250px] h-[100px] bg-gradient-to-r from-[#191248] to-[#B1853D] mx-auto rounded-[100px] relative">
+                    <h4 className="md:text-2xl text-sm text-center md:w-[800px] w-[400px] text-white font-cairo font-semibold tracking-wide absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                         تقديم الاستشارة و المشورة و المساعدة القانونية من خلال فريق
                         العمل و ذلك بعد المداولة فيها و عرض الرأى و تقديمها لطالبها
                         بأفضل و انسب و اقوى حل في الاستشارة المطلوية

@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image"
 import Link from "next/link"
 
@@ -7,30 +8,32 @@ const Banner = (props: Props) => {
     return (
         <div className="relative bg-[#B1853D]/90 h-screen w-full text-center">
             {/* Header */}
-            <ul className='flex items-center justify-center space-x-5'>
-                <Link href='#contact' className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>
-                    تواصل معنا
+            <div className='flex items-center justify-center space-x-5'>
+                <Link href='#contact'>
+                    <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>تواصل معنا</button>
                 </Link>
-                <Link className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30' href='#services'>
-                    خدماتنا
+                <Link href='#service'>
+                    <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>خدماتنا</button>
                 </Link>
-                <Link className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30' href='#home'>
-                    <Image
-                        src='/logo.png'
-                        alt='LOGO'
-                        width={98}
-                        height={83}
-                        className='cursor-pointer'
-                        priority
-                    />
+                <Link href='#home'>
+                    <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>
+                        <Image
+                            src='/logo.png'
+                            alt='LOGO'
+                            width={98}
+                            height={83}
+                            className='cursor-pointer'
+                            priority
+                        />
+                    </button>
                 </Link>
-                <Link className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30' href='#partners'>
-                    الشركاء
+                <Link href='#partner'>
+                    <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>الشركاء</button>
                 </Link>
-                <Link className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30' href='#about'>
-                    من نحن
+                <Link href='#about'>
+                    <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>من نحن</button>
                 </Link>
-            </ul>
+            </div>
             {/* LOGO */}
             <div className="absolute md:-top-10 -top-0 md:-left-96 -left-80 opacity-10 z-0 md:w-[900px] md:h-[900px] h-[700px] w-[700px]">
                 <Image

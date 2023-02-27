@@ -109,7 +109,6 @@ const Contact = (props: Props) => {
                 </div>
             </div>
             <div className="bg-white xl:h-96 md:h-72 w-full absolute -bottom-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
-
         </div>
     )
 }
