@@ -11,14 +11,17 @@ const Partners = (props: Props) => {
             <div className="grid grid-cols-2 max-w-7xl mx-auto xl:mt-40 md:mt-20 mt-10">
                 <div className="flex items-center justify-center group relative">
                     {/* Photo */}
-                    <div className="rounded-xl group-hover:hidden block xl:w-[536px] xl:h-[1051px] md:w-[436px] md:h-[850px] w-[160px] h-[650px]">
-                        <Image
-                            src='/partner1.jpeg'
-                            alt="Partner1"
-                            width={536}
-                            height={1051}
-                            className="rounded-xl"
-                        />
+                    <div className="relative">
+                        <div className="rounded-xl group-hover:hidden block xl:w-[536px] xl:h-[1051px] md:w-[436px] md:h-[850px] w-[160px] h-[650px]">
+                            <Image
+                                src='/partner1.jpeg'
+                                alt="Partner1"
+                                width={536}
+                                height={1051}
+                                className="rounded-xl"
+                            />
+                        </div>
+                        <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-black absolute md:top-3/4 xl:left-24 top-64 md:left-16 left-4 group-hover:hidden block z-50">المستشار الدكتور / وليد سعد</h1>
                     </div>
                     {/* Content */}
                     <div className="absolute z-20 bg-white xl:w-[536px] md:w-[436px] h-fit top-0 text-right space-y-8 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
@@ -54,17 +57,20 @@ const Partners = (props: Props) => {
                 </div>
                 <div className="flex items-center justify-center group relative">
                     {/* Photo */}
-                    <div className="rounded-xl group-hover:hidden block xl:w-[532px] xl:h-[1051px] md:w-[432px] md:h-[850px] w-[160px] h-[650px]">
-                        <Image
-                            src='/partner2.jpeg'
-                            alt="Partner2"
-                            width={532}
-                            height={1051}
-                            className="rounded-xl"
-                        />
+                    <div className="relative">
+                        <div className="rounded-xl group-hover:hidden block xl:w-[532px] xl:h-[1051px] md:w-[432px] md:h-[850px] w-[160px] h-[650px]">
+                            <Image
+                                src='/partner2.jpeg'
+                                alt="Partner2"
+                                width={532}
+                                height={1051}
+                                className="rounded-xl"
+                            />
+                            <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-black absolute md:top-3/4 xl:left-24 md:left-16 z-50 group-hover:hidden block">المستشار الدكتور / محمود نصر </h1>
+                        </div>
                     </div>
                     {/* Content */}
-                    <div className="absolute z-20 bg-white xl:w-[532px] md:w-[432px] h-fit top-0 text-right xl:space-y-8 space-y-5 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
+                    <div className="absolute z-20 bg-white xl:w-[532px] md:w-[432px] h-fit top-0 text-right xl:space-y-8 md:space-y-5 space-y-2 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
                         <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">حاصل على ليسانس الحقوق والعلوم الشرطية عام 1990 بتقدير جيد جدا</h1>
                         <h1 className="text-[#B1853D] font-cairo font-bold xl:text-sm md:text-xs text-[8px]">المناصب القضائية التي تولاها سيادتة؛</h1>
                         <div className="xl:space-y-5 space-y-2">

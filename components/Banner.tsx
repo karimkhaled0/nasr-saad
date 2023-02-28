@@ -8,14 +8,14 @@ const Banner = (props: Props) => {
     return (
         <div className="relative bg-[#B1853D]/90 h-screen w-full text-center">
             {/* Header */}
-            <div className='flex items-center justify-center space-x-5'>
-                <Link href='#contact'>
+            <div className='flex items-center justify-center space-x-5 z-20 relative'>
+                <a href='#contact'>
                     <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>تواصل معنا</button>
-                </Link>
-                <Link href='#service'>
+                </a>
+                <a href='#service'>
                     <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>خدماتنا</button>
-                </Link>
-                <Link href='#home'>
+                </a>
+                <a href='#home'>
                     <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>
                         <Image
                             src='/logo.png'
@@ -26,13 +26,13 @@ const Banner = (props: Props) => {
                             priority
                         />
                     </button>
-                </Link>
-                <Link href='#partner'>
+                </a>
+                <a href='#partner'>
                     <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>الشركاء</button>
-                </Link>
-                <Link href='#about'>
+                </a>
+                <a href='#about'>
                     <button className='font-cairo md:text-xl text-sm text-white font-medium cursor-pointer z-30'>من نحن</button>
-                </Link>
+                </a>
             </div>
             {/* LOGO */}
             <div className="absolute md:-top-10 -top-0 md:-left-96 -left-80 opacity-10 z-0 md:w-[900px] md:h-[900px] h-[700px] w-[700px]">

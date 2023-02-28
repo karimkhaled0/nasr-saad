@@ -75,18 +75,18 @@ const Footer = (props: Props) => {
                 <div className="md:space-y-6 space-y-2 text-center">
                     <h1 className="text-[#B1853D] md:text-lg text-sm font-cairo font-semibold">خريطة الموقع</h1>
                     <div className="md:space-y-5 space-y-2 flex flex-col">
-                        <Link href='#about' className="md:text-base text-[7px] font-cairo">
+                        <a href='#about' className="md:text-base text-[7px] font-cairo">
                             من نحن
-                        </Link>
-                        <Link href='#partners' className="md:text-base text-[7px] font-cairo">
+                        </a>
+                        <a href='#partner' className="md:text-base text-[7px] font-cairo">
                             الشركاء
-                        </Link>
-                        <Link href='#service' className="md:text-base text-[7px] font-cairo">
+                        </a>
+                        <a href='#service' className="md:text-base text-[7px] font-cairo">
                             خدماتنا
-                        </Link>
-                        <Link href='#contact' className="md:text-base text-[7px] font-cairo">
+                        </a>
+                        <a href='#contact' className="md:text-base text-[7px] font-cairo">
                             تواصل معنا
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className="text-right relative grid justify-items-stretch">
