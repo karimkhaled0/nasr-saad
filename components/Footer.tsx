@@ -11,8 +11,8 @@ const Footer = (props: Props) => {
                     <h1 className="text-[#B1853D] md:text-lg text-sm font-cairo font-semibold">معلومات التواصل</h1>
                     <div className="space-y-3 grid grid-cols-2 w-fit gap-x-2">
                         <div className="space-y-3 md:mt-2 mt-3">
-                            <h4 className="md:text-base text-[7px] font-cairo">info@admin.com</h4>
-                            <h4 className="md:text-base text-[7px] font-cairo">+201584687481</h4>
+                            <h4 className="md:text-base text-[7px] font-cairo"><a href="mailto:info@nasr-saad.com">info@nasr-saad.com</a></h4>
+                            <h1 className="md:text-base text-[7px] font-cairo"> <a href="tel:201200844777">+201200844777</a></h1>
                             <h4 className="md:text-base text-[7px] font-cairo">nasr-saad.com</h4>
                         </div>
                         <div className="space-y-4">

@@ -14,14 +14,14 @@ const Partners = (props: Props) => {
                     <div className="relative">
                         <div className="rounded-xl group-hover:hidden block xl:w-[536px] xl:h-[1051px] md:w-[436px] md:h-[850px] w-[160px] h-[650px]">
                             <Image
-                                src='/partner1.jpeg'
+                                src='/waleed.jpg'
                                 alt="Partner1"
                                 width={536}
                                 height={1051}
                                 className="rounded-xl"
                             />
                         </div>
-                        <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-black absolute md:top-3/4 xl:left-24 top-64 md:left-16 left-4 group-hover:hidden block z-50">المستشار الدكتور / وليد سعد</h1>
+                        <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-white absolute md:top-[80%] xl:left-24 top-64 md:left-16 left-4 group-hover:hidden block z-50">المستشار الدكتور / وليد سعد</h1>
                     </div>
                     {/* Content */}
                     <div className="absolute z-20 bg-white xl:w-[536px] md:w-[436px] h-fit top-0 text-right space-y-8 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
@@ -60,13 +60,13 @@ const Partners = (props: Props) => {
                     <div className="relative">
                         <div className="rounded-xl group-hover:hidden block xl:w-[532px] xl:h-[1051px] md:w-[432px] md:h-[850px] w-[160px] h-[650px]">
                             <Image
-                                src='/partner2.jpeg'
+                                src='/mahmoud.jpg'
                                 alt="Partner2"
                                 width={532}
                                 height={1051}
                                 className="rounded-xl"
                             />
-                            <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-black absolute md:top-3/4 xl:left-24 md:left-16 z-50 group-hover:hidden block">المستشار الدكتور / محمود نصر </h1>
+                            <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-white absolute md:top-[80%] xl:left-24 md:left-16 z-50 group-hover:hidden block">المستشار الدكتور / محمود نصر </h1>
                         </div>
                     </div>
                     {/* Content */}
