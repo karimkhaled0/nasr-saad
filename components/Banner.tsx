@@ -53,7 +53,7 @@ const Banner = (props: Props) => {
                     رئيس محكمة الجنايات وامن الدوله الاسبق و المستشار الدكتور/ وليد سعد المحام بالنقض</p>
             </div>
             <div className="absolute z-20 md:top-[90%] top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <button className="py-3 md:px-12 px-8 shadow-lg bg-[#191248] rounded-xl text-white font-cairo font-semibold xl:text-lg md:text-base text-[10px]">اقرأ المزيد</button>
+                <button className="py-3 md:px-12 px-8 shadow-lg bg-[#191248] rounded-xl text-white font-cairo font-semibold xl:text-lg md:text-base text-[10px]"><a href="#about">إقرا المزيد</a></button>
             </div>
             {/* Statue */}
             <div className="absolute right-0 bottom-0 z-10 xl:block hidden">
