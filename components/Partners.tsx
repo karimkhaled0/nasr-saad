@@ -5,83 +5,10 @@ type Props = {}
 const Partners = (props: Props) => {
     return (
         <div className="h-full relative bg-white z-20">
-            <h1 className="text-center font-cairo font-extrabold text-[#191248] text-4xl">الشركاء</h1>
-
-            {/* Photo */}
-            <div className="grid grid-cols-2 max-w-7xl mx-auto xl:mt-40 md:mt-20 mt-10">
-                <div className="flex items-center justify-center group relative">
-                    {/* Photo */}
-                    <div className="relative">
-                        <div className="rounded-xl group-hover:hidden block xl:w-[536px] xl:h-[1051px] md:w-[436px] md:h-[850px] xs:w-[200px] w-[150px] h-[150px]">
-                            <Image
-                                src='/waleed.jpg'
-                                alt="Partner1"
-                                width={536}
-                                height={100}
-                                className="rounded-xl"
-                                priority
-                            />
-                        </div>
-                        <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-white absolute md:top-[80%] xl:left-24 top-80 md:left-16 left-8 group-hover:hidden block z-50">المستشار الدكتور / وليد سعد</h1>
-                    </div>
-                    {/* Content */}
-                    <div className="absolute z-20 bg-white xl:w-[536px] md:w-[436px] w-[220px] md:h-full h-fit top-0 text-right md:space-y-8 space-y-2 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
-                        <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">
-                            حاصل على ليسانس الحقوق جامعة القاهرة عام 2000 بتقدير جيد جدا التحق للعمل
-                            بالمحاماه منذ 2002 وحتى الان  وفي خلال هذة الفترة حيث انشأ سيادتة مؤسسة وليد سعد
-                            للمحاماه والاستشارات القانونية وذلك في خلال؛
-                        </h1>
-                        <div className="md:space-y-5 space-y-1">
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2008 انشأ فرع السلام - مدينة السلام ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2016 انشأ فرع التجمع الاول - القاهرة الجديدة●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2018 انشأ فرع الشروق - مدينة الشروق ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2019 انشأ فرع التجمع الخامص ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2019 انشأ مقرة الرئيسي لمؤسسة وليد سعد للمحاماة ●<p>
-                                والاستشارات القانونية بمدينة نصر</p></h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2020 أسس مؤسسة نصر وسعد للمحاماة والاستشارات ●<p>
-                                القانونية حتى الان</p></h4>
-                        </div>
-                        <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">الدرجة العلمية والمهنية ؛
-                        </h1>
-                        <div className="md:space-y-5 space-y-1">
-                            <div className="flex flex-row-reverse">
-                                <p className="md:text-sm text-[8px]">●</p>
-                                <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px] mr-1">باحث في درجة الدكتوراة في القانون الجنائي بجامعة القاهرة ومعهد الدراسات العربية - المنظمة العربية للتربية والثقافه والعلوم - منظمة جامعة الدول العربية</h4>
-                            </div>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">ماجستير في القانون العام من جامعة القاهرة 2003 بتقدير جيد جدا ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">ماجستير في القانون الجنائي من جامعة القاهرة 2006 بتقدير جيد جدا ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">نائب رئيس مجلس ادارة مؤسسة نصر وسعد للمحاماة والاستشارات القانونية ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">محام بالنقض والادارية والدستورية العليا ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">عضو اتحاد المحامين العرب ●</h4>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex items-center justify-center group relative">
-                    {/* Photo */}
-                    <div className="relative">
-                        <div className="rounded-xl group-hover:hidden block xl:w-[532px] xl:h-[1051px] md:w-[432px] md:h-[850px] xs:w-[200px] w-[150px] h-[150px]">
-                            <Image
-                                src='/mahmoud.jpg'
-                                alt="Partner2"
-                                width={532}
-                                height={100}
-                                className="rounded-xl"
-                                priority
-                            />
-                            <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-white absolute md:top-[80%] xl:left-24 top-80 md:left-16 left-6 z-50 group-hover:hidden block">المستشار الدكتور / محمود نصر </h1>
-                        </div>
-                    </div>
-                    {/* Content */}
-                    <div className="absolute z-20 bg-white xl:w-[532px] md:w-[432px] w-[220px] md:h-full h-fit top-0 text-right xl:space-y-8 md:space-y-5 space-y-2 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
-                        <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">حاصل على ليسانس الحقوق والعلوم الشرطية عام 1990 بتقدير جيد جدا</h1>
-                        <h1 className="text-[#B1853D] font-cairo font-bold xl:text-sm md:text-xs text-[8px]">المناصب القضائية التي تولاها سيادتة؛</h1>
-                        <div className="xl:space-y-5 space-y-1">
-                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2018 حتى 2019 المفتش القضائي الاول لوزارة العدل ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2016 حتى 2018 رئس سيادتة دائرة محكمة جنايات القاهرة المختصة بقضايا الارهاب ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2014 حتى 2016 عُين عضواّ بمحاكم جنايات الجيزة ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2012 حتى 2014 عُين عضواّ بمحاكم جنايات الاسكندرية ●</h4>
-                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2011 حتى 2012 عُين رئيساّ بمحاكم الاستئناف وعضو بمحاكم جنايات اسوان ●</h4>
-                        </div>
+            <h1 className="text-center font-cairo font-extrabold text-[#191248] md:text-4xl text-xl">الشركاء</h1>
+            <div className="flex flex-col max-w-7xl mx-auto md:mt-16 mt-8 md:space-y-20 space-y-10">
+                <div className="grid xl:grid-cols-3 xl:grid-rows-1 grid-cols-1 grid-rows-1 gap-y-5 justify-items-center xl:max-w-full md:max-w-2xl xs:max-w-xs max-w-[250px] mx-auto">
+                    <div className="text-right xl:space-y-8 md:space-y-5 space-y-2 xl:order-1 order-3">
                         <h1 className="text-[#B1853D] font-cairo font-bold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 1992 حتى 2010</h1>
                         <div className="xl:space-y-5 space-y-1">
                             <div className="flex flex-row-reverse">
@@ -101,10 +28,87 @@ const Partners = (props: Props) => {
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">عضو اتحاد المحامين العرب ●</h4>
                         </div>
                     </div>
+                    {/* Photo */}
+                    <div className="flex flex-col items-center space-y-5 xl:w-[200px] w-[100px] xl:order-2 order-1">
+                        <Image
+                            src='/mahmoud.jpg'
+                            alt="Partner2"
+                            width={200}
+                            height={100}
+                            className="rounded-full"
+                            priority
+                        />
+                        <h1 className="xl:text-2xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-black">المستشار الدكتور / وليد سعد</h1>
+                    </div>
+                    <div className="text-right xl:space-y-8 md:space-y-5 space-y-2 xl:order-3 order-2">
+                        <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">حاصل على ليسانس الحقوق والعلوم الشرطية عام 1990 بتقدير جيد جدا</h1>
+                        <h1 className="text-[#B1853D] font-cairo font-bold xl:text-sm md:text-xs text-[8px]">المناصب القضائية التي تولاها سيادتة؛</h1>
+                        <div className="xl:space-y-5 space-y-1">
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2018 حتى 2019 المفتش القضائي الاول لوزارة العدل ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2016 حتى 2018 رئس سيادتة دائرة محكمة جنايات القاهرة المختصة بقضايا الارهاب ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2014 حتى 2016 عُين عضواّ بمحاكم جنايات الجيزة ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2012 حتى 2014 عُين عضواّ بمحاكم جنايات الاسكندرية ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2011 حتى 2012 عُين رئيساّ بمحاكم الاستئناف وعضو بمحاكم جنايات اسوان ●</h4>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-[#b99150] h-2 w-full" />
+                <div className="grid xl:grid-cols-3 xl:grid-rows-1 grid-cols-1 grid-rows-1 gap-y-5 justify-items-center xl:max-w-full md:max-w-2xl xs:max-w-xs max-w-[250px] mx-auto">
+                    <div className="text-right xl:space-y-8 md:space-y-5 space-y-2 xl:order-1 order-3">
+                        <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">الدرجة العلمية والمهنية ؛
+                        </h1>
+                        <div className="md:space-y-5 space-y-1">
+                            <div className="flex flex-row-reverse">
+                                <p className="md:text-sm text-[8px]">●</p>
+                                <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px] mr-1">باحث في درجة الدكتوراة في القانون الجنائي بجامعة القاهرة ومعهد الدراسات العربية - المنظمة العربية للتربية والثقافه والعلوم - منظمة جامعة الدول العربية</h4>
+                            </div>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">ماجستير في القانون العام من جامعة القاهرة 2003 بتقدير جيد جدا ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">ماجستير في القانون الجنائي من جامعة القاهرة 2006 بتقدير جيد جدا ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">نائب رئيس مجلس ادارة مؤسسة نصر وسعد للمحاماة والاستشارات القانونية ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">محام بالنقض والادارية والدستورية العليا ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">عضو اتحاد المحامين العرب ●</h4>
+                        </div>
+                    </div>
+                    {/* Photo */}
+                    <div className="flex flex-col items-center space-y-5 xl:w-[200px] w-[100px] xl:order-2 order-1">
+                        <Image
+                            src='/waleed.jpg'
+                            alt="Partner1"
+                            width={200}
+                            height={100}
+                            className="rounded-full"
+                            priority
+                        />
+                        <h1 className="xl:text-2xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-black">المستشار الدكتور / وليد سعد</h1>
+                    </div>
+                    <div className="text-right xl:space-y-8 md:space-y-5 space-y-2 xl:order-3 order-2">
+                        <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">
+                            حاصل على ليسانس الحقوق جامعة القاهرة عام 2000 بتقدير جيد جدا التحق للعمل
+                            بالمحاماه منذ 2002 وحتى الان  وفي خلال هذة الفترة حيث انشأ سيادتة مؤسسة وليد سعد
+                            للمحاماه والاستشارات القانونية وذلك في خلال؛
+                        </h1>
+                        <div className="md:space-y-5 space-y-1">
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">في عام 2008 انشأ فرع السلام - مدينة السلام ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">في عام 2016 انشأ فرع التجمع الاول - القاهرة الجديدة●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">في عام 2018 انشأ فرع الشروق - مدينة الشروق ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">في عام 2019 انشأ فرع التجمع الخامص ●</h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">في عام 2019 انشأ مقرة الرئيسي لمؤسسة وليد سعد للمحاماة ●<p>
+                                والاستشارات القانونية بمدينة نصر</p></h4>
+                            <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">في عام 2020 أسس مؤسسة نصر وسعد للمحاماة والاستشارات ●<p>
+                                القانونية حتى الان</p></h4>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+
         </div>
     )
 }
 
 export default Partners
+
+
+
+
+

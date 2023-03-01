@@ -5,23 +5,25 @@ type Props = {}
 
 const Footer = (props: Props) => {
     return (
-        <div className="h-full text-white bg-[#2c2458] md:mt-0 mt-44">
+        <div className="h-full text-white bg-[#2c2458] xl:mt-96 md:mt-20 mt-60">
             <div className="grid grid-cols-3 md:p-16 p-8">
                 <div className="md:space-y-6 space-y-2">
-                    <h1 className="text-[#B1853D] md:text-lg text-sm font-cairo font-semibold">معلومات التواصل</h1>
-                    <div className="space-y-3 grid grid-cols-2 w-fit gap-x-2">
-                        <div className="space-y-3 md:mt-2 mt-3">
+                    <h1 className="text-[#B1853D] md:text-lg xs:text-sm text-[10px] font-cairo font-semibold">معلومات التواصل</h1>
+                    <div className="md:space-y-5 space-y-2">
+                        <div className="flex items-center md:space-x-4 space-x-1">
                             <h4 className="md:text-base text-[7px] font-cairo"><a href="mailto:info@nasr-saad.com">info@nasr-saad.com</a></h4>
-                            <h1 className="md:text-base text-[7px] font-cairo"> <a href="tel:201200844777">+201200844777</a></h1>
-                            <h4 className="md:text-base text-[7px] font-cairo">nasr-saad.com</h4>
-                        </div>
-                        <div className="space-y-4">
                             <EnvelopeIcon
                                 className='md:h-5 md:w-5 h-2 w-2'
                             />
+                        </div>
+                        <div className="flex items-center md:space-x-4 space-x-1">
+                            <h1 className="md:text-base text-[7px] font-cairo"> <a href="tel:201200844777">+201200844777</a></h1>
                             <PhoneIcon
                                 className='md:h-5 md:w-5 h-2 w-2'
                             />
+                        </div>
+                        <div className="flex items-center md:space-x-4 space-x-1">
+                            <h4 className="md:text-base text-[7px] font-cairo">nasr-saad.com</h4>
                             <GlobeAsiaAustraliaIcon
                                 className='md:h-5 md:w-5 h-2 w-2'
                             />
@@ -47,9 +49,10 @@ const Footer = (props: Props) => {
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div className="md:space-y-6 space-y-2 text-center">
-                    <h1 className="text-[#B1853D] md:text-lg text-sm font-cairo font-semibold">خريطة الموقع</h1>
+                    <h1 className="text-[#B1853D] md:text-lg xs:text-sm text-[10px] font-cairo font-semibold">خريطة الموقع</h1>
                     <div className="md:space-y-5 space-y-2 flex flex-col">
                         <a href='#about' className="md:text-base text-[7px] font-cairo">
                             من نحن
@@ -74,13 +77,13 @@ const Footer = (props: Props) => {
                             height={141}
                         />
                         <div className="absolute text-center ">
-                            <h4 className="md:text-xs text-[7px] font-cairo">مؤسسة</h4>
-                            <h1 className="md:text-xs text-[7px] font-cairo font-bold">نصر وسعد</h1>
+                            <h4 className="md:text-xs text-[6px] font-cairo">مؤسسة</h4>
+                            <h1 className="md:text-xs text-[6px] font-cairo font-bold">نصر وسعد</h1>
                             <h4 className="md:text-[10px] text-[5px] font-cairo font-bold">للمحاماة والاستشارات</h4>
-                            <h4 className="md:text-xs text-[7px] font-cairo">القانونية</h4>
+                            <h4 className="md:text-xs text-[6px] font-cairo">القانونية</h4>
                         </div>
                     </div>
-                    <h1 className="absolute md:-bottom-8 -bottom-3 font-cairo font-semibold xl:text-base md:text-sm text-[7px]">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة , حيث أسست علي نمط الشراكة الحديثة لوجود الخبرات في شتي مجال القانون الجنائي</h1>
+                    <h1 className="absolute md:-bottom-8 -bottom-3 font-cairo font-semibold xl:text-base md:text-sm text-[4px]">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة , حيث أسست علي نمط الشراكة الحديثة لوجود الخبرات في شتي مجال القانون الجنائي</h1>
                 </div>
             </div>
             <hr className="h-1 bg-white" />

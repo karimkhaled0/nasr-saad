@@ -11,7 +11,7 @@ type Props = {}
 
 const page = (props: Props) => {
     return (
-        <div className='h-screen overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-track-white scrollbar-thumb-[#b99150]'>
+        <div className='h-screen overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-track-white/50 scrollbar-thumb-[#b99150]'>
             {/* Banner */}
             <section id='home'>
                 <Banner />
