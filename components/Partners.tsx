@@ -12,7 +12,7 @@ const Partners = (props: Props) => {
                 <div className="flex items-center justify-center group relative">
                     {/* Photo */}
                     <div className="relative">
-                        <div className="rounded-xl group-hover:hidden block xl:w-[536px] xl:h-[1051px] md:w-[436px] md:h-[850px] w-[200px] h-[150px]">
+                        <div className="rounded-xl group-hover:hidden block xl:w-[536px] xl:h-[1051px] md:w-[436px] md:h-[850px] xs:w-[200px] w-[150px] h-[150px]">
                             <Image
                                 src='/waleed.jpg'
                                 alt="Partner1"
@@ -59,7 +59,7 @@ const Partners = (props: Props) => {
                 <div className="flex items-center justify-center group relative">
                     {/* Photo */}
                     <div className="relative">
-                        <div className="rounded-xl group-hover:hidden block xl:w-[532px] xl:h-[1051px] md:w-[432px] md:h-[850px] w-[200px] h-[150px]">
+                        <div className="rounded-xl group-hover:hidden block xl:w-[532px] xl:h-[1051px] md:w-[432px] md:h-[850px] xs:w-[200px] w-[150px] h-[150px]">
                             <Image
                                 src='/mahmoud.jpg'
                                 alt="Partner2"
