@@ -56,7 +56,7 @@ const Banner = (props: Props) => {
                 <button className="py-3 md:px-12 px-8 shadow-lg bg-[#191248] rounded-xl text-white font-cairo font-semibold xl:text-lg md:text-base text-[10px]">اقرأ المزيد</button>
             </div>
             {/* Statue */}
-            <div className="absolute right-0 bottom-0 z-10 xl:block hidden w">
+            <div className="absolute right-0 bottom-0 z-10 xl:block hidden">
                 <Image
                     src='/statue1.png'
                     alt="statue"
