@@ -1,10 +1,24 @@
 'use client'
 import Image from "next/image"
+import { SubmitHandler, useForm } from "react-hook-form";
 import Map, { Marker } from "react-map-gl";
-
+type Inputs = {
+    name: String,
+    email: String,
+    number: String,
+    message: String
+};
 type Props = {}
 
 const Contact = (props: Props) => {
+    const {
+        register,
+        handleSubmit
+    } = useForm<Inputs>();
+
+    const onSubmit: SubmitHandler<Inputs> = formData => {
+        window.location.href = `mailto:Info@nasr-saad.com?subject=Support&body=Hello, my name is ${formData.name}. %0D${formData.message} %0D${formData.email} - ${formData.number}`
+    };
     return (
         <div className="h-full relative">
             <div className="relative">
@@ -26,17 +40,17 @@ const Contact = (props: Props) => {
                             mapStyle="mapbox://styles/mapbox/streets-v12"
                             mapboxAccessToken="pk.eyJ1Ijoia2FyaW1raGFsZWRlbG1hd2UiLCJhIjoiY2wxa3l4bDRjMDN6ZDNjb2JnbWpzbGVncSJ9.Hr7IeGn4060vCiHaeJH1Zw"
                             initialViewState={{
-                                longitude: 55.5172173,
-                                latitude: 25.2560882,
-                                zoom: 12,
+                                longitude: 31.3555033,
+                                latitude: 30.0643404,
+                                zoom: 15,
                             }}
                             style={{
                                 borderRadius: '20px'
                             }}
                         >
                             <Marker
-                                longitude={55.5172173}
-                                latitude={25.2560882}
+                                longitude={31.3555033}
+                                latitude={30.0643404}
                                 anchor="right"
                                 color="#FF0000"
                                 style={{
@@ -46,9 +60,10 @@ const Contact = (props: Props) => {
                         </Map>
                     </div>
                     <div className="py-5 md:px-4 xs:px-2">
-                        <form action="" method="post" className="md:space-y-5 space-y-2">
+                        <form onSubmit={handleSubmit(onSubmit)} className="md:space-y-5 space-y-2">
                             <div className="relative z-0 md:w-full w-48  xl:mb-6 md:mb-5 group">
                                 <input
+                                    {...register('name')}
                                     type="text"
                                     className={`block py-2.5 text-right px-0 md:w-full w-48 xs:text-sm text-xs text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer`}
                                     placeholder=" "
@@ -62,6 +77,7 @@ const Contact = (props: Props) => {
                             </div>
                             <div className="relative z-0 md:w-full w-48  xl:mb-6 md:mb-5 group">
                                 <input
+                                    {...register('email')}
                                     type="email"
                                     className={`block py-2.5 text-right px-0 md:w-full w-48  xs:text-sm text-xs text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer`}
                                     placeholder=" "
@@ -75,6 +91,7 @@ const Contact = (props: Props) => {
                             </div>
                             <div className="relative z-0 md:w-full w-48 xl:mb-6 md:mb-5 group">
                                 <input
+                                    {...register('number')}
                                     type="tel"
                                     className={`block py-2.5 text-right px-0 md:w-full w-48 xs:text-sm text-xs text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer`}
                                     placeholder=" "
@@ -87,6 +104,7 @@ const Contact = (props: Props) => {
                             </div>
                             <div className="relative z-0 md:w-full w-48 xl:mb-6 md:mb-5 group">
                                 <textarea
+                                    {...register('message')}
                                     className={`block md:py-6 py-3 px-0 md:w-full w-48 text-right xs:text-sm text-xs text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer`}
                                     placeholder=""
                                     rows={1}

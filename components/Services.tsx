@@ -4,7 +4,7 @@ type Props = {}
 
 const Services = (props: Props) => {
     return (
-        <div className="h-full xl:mt-16 mt-10 bg-white z-20 space-y-20 md:mb-64 mb-20">
+        <div className="h-full md:mt-32 mt-96 bg-white z-20 space-y-20 md:mb-64 mb-20">
             <h1 className="text-center font-cairo font-extrabold text-[#191248] text-4xl">خدماتنا</h1>
 
             <div className="md:space-y-10 space-y-5">
@@ -12,8 +12,8 @@ const Services = (props: Props) => {
                 <h4 className="md:w-[1000px] w-96 mx-auto text-center text-[#191248] font-cairo font-semibold xl:text-lg md:text-base text-xs">نظراً للخبره الكبيره للمؤسسين في الاشتغال العملي بالقانون الجنائي   عبر سنوات خبرتهم الوظيفيه فأن المؤسسه تفتخر بأن تقدم لعملائها تلك الخبرة العريضه لضمان تحقيق اعلي نتائج مرجوه فيما يتعلق بالتحقيقات التي تجريها النيابه العامه او في المرافعه أمام المحاكم الجنائيه المختصه بكافة درجاتها وكذلك كتابة وصياغه الطعون الجنائيه لمحكمة النقض سواء لنقض الجنايات او نقض الجنح</h4>
             </div>
 
-            <div className="grid grid-cols-2 max-w-7xl mx-auto gap-x-10">
-                <div className="md:space-y-10 space-y-5">
+            <div className="grid grid-cols-2 max-w-7xl mx-auto xl:gap-x-10 gap-x-2">
+                <div className="md:space-y-10 space-y-5 xl:w-full md:w-[450px] w-48 mx-auto">
                     <h1 className="text-[#B1853D] md:text-4xl text-xl font-cairo font-extrabold text-center">قسم القضايا الجنائية</h1>
                     <div className="space-y-3">
                         <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide">
@@ -37,7 +37,7 @@ const Services = (props: Props) => {
                         </h4>
                     </div>
                 </div>
-                <div className="md:space-y-10 space-y-5">
+                <div className="md:space-y-10 space-y-5 xl:w-full md:w-[450px] w-48 mx-auto">
                     <h1 className="text-[#B1853D] md:text-4xl text-xl font-cairo font-extrabold text-center">قسم الطعن الجنائي</h1>
                     <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide">
                         حيث تقدم المؤسسة كافة الخدمات المتكاملة في صياغة و كتابة
@@ -57,8 +57,8 @@ const Services = (props: Props) => {
             <div className="space-y-10">
                 <h1 className="text-center font-cairo font-extrabold text-[#B1853D] md:text-4xl text-xl">الاستشارة القانونية الجنائية</h1>
 
-                <div className="xl:w-[1200px] md:w-[900px] md:h-[250px] h-[100px] bg-gradient-to-r from-[#191248] to-[#B1853D] mx-auto rounded-[100px] relative">
-                    <h4 className="md:text-2xl text-sm text-center md:w-[800px] w-[400px] text-white font-cairo font-semibold tracking-wide absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="xl:w-[1200px] md:w-[900px] md:h-[250px] h-[100px] w-[420px] bg-gradient-to-r from-[#191248] to-[#B1853D] mx-auto rounded-[100px] relative">
+                    <h4 className="md:text-2xl text-[10px] text-center md:w-[800px] w-[300px] text-white font-cairo font-semibold tracking-wide absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                         تقديم الاستشارة و المشورة و المساعدة القانونية من خلال فريق
                         العمل و ذلك بعد المداولة فيها و عرض الرأى و تقديمها لطالبها
                         بأفضل و انسب و اقوى حل في الاستشارة المطلوية

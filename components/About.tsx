@@ -13,19 +13,19 @@ const About = (props: Props) => {
                     <h1 className="text-4xl font-cairo font-extrabold text-[#B1853D]">الشركة</h1>
                     <h1 className="text-4xl font-cairo font-extrabold text-[#191248]">نبذة عن</h1>
                 </div>
-                <div className="space-y-16">
-                    <ul className="flex items-center space-x-5">
-                        <li className="xl:w-[600px] md:w-[400px] xl:text-xl md:text-base font-cairo font-semibold">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة
+                <div className="md:space-y-16 space-y-8">
+                    <ul className="flex items-center md:space-x-5 space-x-1 md:m-0 mr-16 md:w-full w-96">
+                        <li className="xl:w-[600px] md:w-[400px] xl:text-xl md:text-base text-xs font-cairo font-semibold">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة
                             , حيث أسست علي نمط الشراكة الحديثة لوجود الخبرات في شتي مجال القانون الجنائي</li>
                         <li>⦿</li>
                     </ul>
-                    <ul className="flex items-center space-x-5">
-                        <li className="xl:w-[600px] md:w-[400px] xl:text-xl md:text-base font-cairo font-semibold">تضم المؤسسة نخبة من المحامين علي اعلي درجات المهارة
+                    <ul className="flex items-center md:space-x-5 space-x-1 md:m-0 mr-16 md:w-full w-96">
+                        <li className="xl:w-[600px] md:w-[400px] xl:text-xl md:text-base text-xs font-cairo font-semibold">تضم المؤسسة نخبة من المحامين علي اعلي درجات المهارة
                             والكفاءه والدرايه التامة وذلك لتقديم الأستشارات الازمة والمتعله بكافه مجالات القانون الجنائي  </li>
                         <li>⦿</li>
                     </ul>
-                    <ul className="flex items-center space-x-5">
-                        <li className="xl:w-[600px] md:w-[400px] xl:text-xl md:text-base font-cairo font-semibold">تتميز المؤسسة بتقديم الخدمات القانونية علي اعلي مستوي من التطوير والجدية
+                    <ul className="flex items-center md:space-x-5 space-x-1 md:m-0 mr-16 md:w-full w-96">
+                        <li className="xl:w-[600px] md:w-[400px] xl:text-xl md:text-base text-xs font-cairo font-semibold">تتميز المؤسسة بتقديم الخدمات القانونية علي اعلي مستوي من التطوير والجدية
                             والدقة فالديها بالخبرات المتخصصة في الأستشارات الخاصه بالقضايا الجنائيه</li>
                         <li>⦿</li>
                     </ul>

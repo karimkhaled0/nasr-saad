@@ -12,25 +12,26 @@ const Partners = (props: Props) => {
                 <div className="flex items-center justify-center group relative">
                     {/* Photo */}
                     <div className="relative">
-                        <div className="rounded-xl group-hover:hidden block xl:w-[536px] xl:h-[1051px] md:w-[436px] md:h-[850px] w-[160px] h-[650px]">
+                        <div className="rounded-xl group-hover:hidden block xl:w-[536px] xl:h-[1051px] md:w-[436px] md:h-[850px] w-[200px] h-[150px]">
                             <Image
                                 src='/waleed.jpg'
                                 alt="Partner1"
                                 width={536}
-                                height={1051}
+                                height={100}
                                 className="rounded-xl"
+                                priority
                             />
                         </div>
-                        <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-white absolute md:top-[80%] xl:left-24 top-64 md:left-16 left-4 group-hover:hidden block z-50">المستشار الدكتور / وليد سعد</h1>
+                        <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-white absolute md:top-[80%] xl:left-24 top-80 md:left-16 left-8 group-hover:hidden block z-50">المستشار الدكتور / وليد سعد</h1>
                     </div>
                     {/* Content */}
-                    <div className="absolute z-20 bg-white xl:w-[536px] md:w-[436px] h-fit top-0 text-right space-y-8 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
+                    <div className="absolute z-20 bg-white xl:w-[536px] md:w-[436px] w-[220px] md:h-full h-fit top-0 text-right md:space-y-8 space-y-2 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
                         <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">
                             حاصل على ليسانس الحقوق جامعة القاهرة عام 2000 بتقدير جيد جدا التحق للعمل
                             بالمحاماه منذ 2002 وحتى الان  وفي خلال هذة الفترة حيث انشأ سيادتة مؤسسة وليد سعد
                             للمحاماه والاستشارات القانونية وذلك في خلال؛
                         </h1>
-                        <div className="space-y-5">
+                        <div className="md:space-y-5 space-y-1">
                             <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2008 انشأ فرع السلام - مدينة السلام ●</h4>
                             <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2016 انشأ فرع التجمع الاول - القاهرة الجديدة●</h4>
                             <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px]">في عام 2018 انشأ فرع الشروق - مدينة الشروق ●</h4>
@@ -42,7 +43,7 @@ const Partners = (props: Props) => {
                         </div>
                         <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">الدرجة العلمية والمهنية ؛
                         </h1>
-                        <div className="space-y-5">
+                        <div className="md:space-y-5 space-y-1">
                             <div className="flex flex-row-reverse">
                                 <p className="md:text-sm text-[8px]">●</p>
                                 <h4 className="text-[#191248] font-cairo font-semibold md:text-sm text-[8px] mr-1">باحث في درجة الدكتوراة في القانون الجنائي بجامعة القاهرة ومعهد الدراسات العربية - المنظمة العربية للتربية والثقافه والعلوم - منظمة جامعة الدول العربية</h4>
@@ -58,22 +59,23 @@ const Partners = (props: Props) => {
                 <div className="flex items-center justify-center group relative">
                     {/* Photo */}
                     <div className="relative">
-                        <div className="rounded-xl group-hover:hidden block xl:w-[532px] xl:h-[1051px] md:w-[432px] md:h-[850px] w-[160px] h-[650px]">
+                        <div className="rounded-xl group-hover:hidden block xl:w-[532px] xl:h-[1051px] md:w-[432px] md:h-[850px] w-[200px] h-[150px]">
                             <Image
                                 src='/mahmoud.jpg'
                                 alt="Partner2"
                                 width={532}
-                                height={1051}
+                                height={100}
                                 className="rounded-xl"
+                                priority
                             />
-                            <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-white absolute md:top-[80%] xl:left-24 md:left-16 z-50 group-hover:hidden block">المستشار الدكتور / محمود نصر </h1>
+                            <h1 className="md:text-2xl text-[10px] font-cairo font-extrabold text-white absolute md:top-[80%] xl:left-24 top-80 md:left-16 left-6 z-50 group-hover:hidden block">المستشار الدكتور / محمود نصر </h1>
                         </div>
                     </div>
                     {/* Content */}
-                    <div className="absolute z-20 bg-white xl:w-[532px] md:w-[432px] h-fit top-0 text-right xl:space-y-8 md:space-y-5 space-y-2 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
+                    <div className="absolute z-20 bg-white xl:w-[532px] md:w-[432px] w-[220px] md:h-full h-fit top-0 text-right xl:space-y-8 md:space-y-5 space-y-2 group-hover:block hidden p-3 border-2 border-gray-300 rounded-xl">
                         <h1 className="text-[#B1853D] font-cairo font-bold md:text-base text-[10px]">حاصل على ليسانس الحقوق والعلوم الشرطية عام 1990 بتقدير جيد جدا</h1>
                         <h1 className="text-[#B1853D] font-cairo font-bold xl:text-sm md:text-xs text-[8px]">المناصب القضائية التي تولاها سيادتة؛</h1>
-                        <div className="xl:space-y-5 space-y-2">
+                        <div className="xl:space-y-5 space-y-1">
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2018 حتى 2019 المفتش القضائي الاول لوزارة العدل ●</h4>
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2016 حتى 2018 رئس سيادتة دائرة محكمة جنايات القاهرة المختصة بقضايا الارهاب ●</h4>
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2014 حتى 2016 عُين عضواّ بمحاكم جنايات الجيزة ●</h4>
@@ -81,7 +83,7 @@ const Partners = (props: Props) => {
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2011 حتى 2012 عُين رئيساّ بمحاكم الاستئناف وعضو بمحاكم جنايات اسوان ●</h4>
                         </div>
                         <h1 className="text-[#B1853D] font-cairo font-bold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 1992 حتى 2010</h1>
-                        <div className="xl:space-y-5 space-y-2">
+                        <div className="xl:space-y-5 space-y-1">
                             <div className="flex flex-row-reverse">
                                 <p className="xl:text-sm md:text-xs text-[8px]">●</p>
                                 <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px] mr-1">عُين وكيلاّ للنائب العام لبعض نيابات القاهرة والاسكندرية والشرقية والمنصورة والاسماعيلية والسويس</h4>
@@ -90,7 +92,7 @@ const Partners = (props: Props) => {
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">مسؤول للمكتب الفني بالمركز القومي للدراسات القضائية ●</h4>
                         </div>
                         <h1 className="text-[#B1853D] font-cairo font-bold xl:text-sm md:text-xs text-[8px]">المناصب السياسية التي تولاها سيادتة؛</h1>
-                        <div className="xl:space-y-5 space-y-2">
+                        <div className="xl:space-y-5 space-y-1">
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">خلال الفترة من 2020 حتى الان يعمل سيادتة منصب نائب رئيس حزب التحرير المصري ●</h4>
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">دكتوراة في القانون الجنائي بجامعة القاهرة عام 2010 بتقدير امتياز ●</h4>
                             <h4 className="text-[#191248] font-cairo font-semibold xl:text-sm md:text-xs text-[8px]">استاذ القانون الجنائي المنتدب بكلية الحقوق في جامعة القاهرة وجامعة الاسكندرية ●</h4>
