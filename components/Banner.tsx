@@ -6,7 +6,7 @@ type Props = {}
 
 const Banner = (props: Props) => {
     return (
-        <div className="relative bg-[#B1853D]/90 h-screen w-full text-center">
+        <div className="relative bg-[#B1853D]/90 md:h-screen h-[80vh] w-full text-center">
             {/* Header */}
             <div className='flex items-center justify-center md:space-x-5 space-x-2 z-20 relative'>
                 <a href='#contact'>
