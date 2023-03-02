@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mapboxgl-ctrl-logo {
+    @apply hidden !important
+}

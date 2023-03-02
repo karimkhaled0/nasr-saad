@@ -17,7 +17,7 @@ const Contact = (props: Props) => {
     } = useForm<Inputs>();
 
     const onSubmit: SubmitHandler<Inputs> = formData => {
-        window.location.href = `mailto:Info@nasr-saad.com?subject=Support&body=Hello, my name is ${formData.name}. %0D${formData.message} %0D${formData.email} - ${formData.number}`
+        window.location.href = `mailto:Info@nasr-saad.com?subject=Support&body=${formData.message} %0D%0D${formData.name}%0D${formData.email} - ${formData.number}`
     };
     return (
         <div className="md:h-screen h-full relative">
@@ -81,9 +81,11 @@ const Contact = (props: Props) => {
                             <div className="relative z-0 xs:w-full xxs:w-72 w-64  xl:mb-6 md:mb-5 group">
                                 <textarea
                                     {...register('message')}
-                                    className={`block md:py-6 py-3 px-0 w-full text-right xs:text-sm text-xs text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer`}
+
+                                    className={` block md:py-6 py-3 px-0 w-full text-right xs:text-sm text-xs text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer`}
                                     placeholder=""
-                                    rows={1}
+                                    rows={2}
+                                    maxLength={200}
                                     required
                                 />
                                 <label
@@ -100,7 +102,8 @@ const Contact = (props: Props) => {
                             </button>
                         </form>
                     </div>
-                    <div className="p-4 xl:h-full md:h-96 h-60 md:order-1 md:block hidden">
+                    <div className="p-4 xl:h-full md:h-96 h-60 md:order-1 space-y-2 md:space-y-0 relative">
+                        <h1 className="text-center font-cairo font-extrabold xs:text-base text-xs md:absolute md:z-30 md:top-10 md:w-full md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2">Google Maps اضغط على العلامة للذهاب الى</h1>
                         <Map
                             mapStyle="mapbox://styles/mapbox/streets-v12"
                             mapboxAccessToken="pk.eyJ1Ijoia2FyaW1raGFsZWRlbG1hd2UiLCJhIjoiY2wxa3l4bDRjMDN6ZDNjb2JnbWpzbGVncSJ9.Hr7IeGn4060vCiHaeJH1Zw"
@@ -121,7 +124,9 @@ const Contact = (props: Props) => {
                                 style={{
                                     cursor: "pointer",
                                 }}
-
+                                onClick={() => {
+                                    window.open("https://www.google.com/maps/place/30%C2%B003'51.6%22N+31%C2%B021'19.8%22E/@30.0641908,31.3540112,17.67z/data=!4m4!3m3!8m2!3d30.0643404!4d31.3555033", "_blank")
+                                }}
                             ></Marker>
                         </Map>
                     </div>

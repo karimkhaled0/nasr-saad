@@ -16,25 +16,27 @@ const Services = (props: Props) => {
                 <div className="md:space-y-10 space-y-5 xl:w-full lg:w-[800px] md:w-[600px] xs:w-96 xxs:w-80 w-72 mx-auto">
                     <h1 className="text-[#B1853D] md:text-4xl text-xl font-cairo font-extrabold text-center">قسم القضايا الجنائية</h1>
                     <div className="space-y-3">
-                        <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide">
-                            قدم المؤسسة كافة الخدمات المتكاملة في القضايا الجنائي
+                        <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide flex">
+                            تقدم المؤسسة كافة الخدمات المتكاملة في القضايا الجنائية
                             من حضور التحقيقات في النيابات المختلفة سواء في النيابة العامة
                             او نيابة امن الدولة العليا او نيابة الاموال العامة او نيابة الشئون
                             المالية و التجارية او نيابة غسيل الاموال او نيابة الاستئناف
-                        </h4>
-                        <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide">
+                            <p className="ml-0.5">●</p></h4>
+                        <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide flex">
                             الانتقال لمكان الضبط للوصول لادلة او مستتندات قد تفيد في
                             القضية سواء من شهود او كاميرات للمراقبة او تلغرافات مرسلة
-                        </h4>
-                        <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide">
+                            <p className="ml-0.5">●</p> </h4>
+                        <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide flex">
                             حضور الجلسات الخاصة بتجديد الحبس تمهيدا لاخلاء سبيل
                             المتهمين المحبوسين احتياطيا على ذمة القضاياالجنائية التى يتم
                             تجديد حبس المتهمين فيها امام الدوائر الجزئية او المشورة او
                             الجنايات او نيابات امن الدولة العليا و الاموال العامة
+                            <p className="ml-0.5">●</p></h4>
+                        <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide flex">
                             حضور الجلسات الخاصة بالموضوع امام محاكم الجنايات و الجنخ
                             و الجنح المستثنافة و ذلك للمرافعة و تقديم المذكرات و اثبات البراءة
                             و على رأس هذا القسم المستشار الدكتور / وليد سعد
-                        </h4>
+                            <p className="ml-0.5">●</p> </h4>
                     </div>
                 </div>
                 <div className="md:space-y-10 space-y-5 xl:w-full lg:w-[800px] md:w-[600px] xs:w-96 xxs:w-80 w-72 mx-auto">

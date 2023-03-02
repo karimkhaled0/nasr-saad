@@ -26,7 +26,7 @@ const About = (props: Props) => {
                     </ul>
                     <ul className="flex items-center space-x-5">
                         <li className="md:w-[600px] xs:w-[300px] w-[250px] xl:text-xl md:text-lg xs:text-xs text-[10px] font-cairo font-semibold">تتميز المؤسسة بتقديم الخدمات القانونية علي اعلي مستوي من التطوير والجدية
-                            والدقة فالديها بالخبرات المتخصصة في الأستشارات الخاصه بالقضايا الجنائيه</li>
+                            والدقة فلديها بالخبرات المتخصصة في الأستشارات الخاصه بالقضايا الجنائيه</li>
                         <li>⦿</li>
                     </ul>
                 </div>
