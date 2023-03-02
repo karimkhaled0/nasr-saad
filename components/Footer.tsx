@@ -71,11 +71,11 @@ const Footer = (props: Props) => {
                     </div>
                 </div>
                 <div className="relative flex text-right">
-                    <div className="md:w-[250px] w-[100px] z-50">
+                    <div className="md:w-[150px] w-[50px] z-50">
                         <Image
                             src='/logo.png'
                             alt="logo"
-                            width={250}
+                            width={150}
                             height={141}
                             className='absolute right-0'
                         />

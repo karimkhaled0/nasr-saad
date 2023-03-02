@@ -15,11 +15,11 @@ const Banner = (props: Props) => {
                     <button className='font-cairo md:text-xl text-[10px] text-white font-medium cursor-pointer z-30'>خدماتنا</button>
                 </a>
                 <a href='#home'>
-                    <button className='md:w-[200px] w-[90px] font-cairo md:text-xl text-[10px] text-white font-medium cursor-pointer z-30'>
+                    <button className='md:w-[150px] w-[50px] font-cairo md:text-xl text-[10px] text-white font-medium cursor-pointer z-30'>
                         <Image
                             src='/logo.png'
                             alt='LOGO'
-                            width={200}
+                            width={150}
                             height={83}
                             className='cursor-pointer'
                             priority
