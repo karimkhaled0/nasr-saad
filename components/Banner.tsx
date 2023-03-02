@@ -5,7 +5,7 @@ type Props = {}
 
 const Banner = (props: Props) => {
     return (
-        <div className="relative bg-[#B1853D]/90 md:h-screen h-[80vh] w-full text-center">
+        <div className="relative bg-[#B1853D]/90 md:h-screen h-[60vh] w-full text-center">
             {/* Header */}
             <div className='flex items-center justify-center md:space-x-5 space-x-2 z-20 relative'>
                 <a href='#contact'>
@@ -21,7 +21,7 @@ const Banner = (props: Props) => {
                             alt='LOGO'
                             width={150}
                             height={83}
-                            className='cursor-pointer'
+                            className='cursor-pointer md:w-[150px] w-[50px]'
                             priority
                         />
                     </button>
@@ -51,7 +51,7 @@ const Banner = (props: Props) => {
                     نمط الشراكة الحديثة لوجود الخبرات في شتي مجال القانون الجنائي تسأسست علي يد المستشار الدكتور /محمود نصر
                     رئيس محكمة الجنايات وامن الدوله الاسبق و المستشار الدكتور/ وليد سعد المحام بالنقض</p>
             </div>
-            <div className="absolute z-20 md:top-[90%] top-[85%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute z-20 md:top-[90%] top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <button className="md:py-3 md:px-12 py-1 px-6 shadow-lg bg-[#191248] rounded-xl text-white font-cairo font-semibold xl:text-lg md:text-base text-[10px]"><a href="#about">إقرا المزيد</a></button>
             </div>
             {/* Statue */}

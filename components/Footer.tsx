@@ -71,13 +71,13 @@ const Footer = (props: Props) => {
                     </div>
                 </div>
                 <div className="relative flex text-right">
-                    <div className="md:w-[150px] w-[50px] z-50">
+                    <div className="md:w-[150px] md:h-[141px] w-[50px] h-[50px] z-50">
                         <Image
                             src='/logo.png'
                             alt="logo"
                             width={150}
                             height={141}
-                            className='absolute right-0'
+                            className='absolute right-0 md:w-[150px] md:h-[141px] w-[50px] h-[50px]'
                         />
                     </div>
                     <h1 className="absolute md:-bottom-8 -bottom-0 font-cairo font-semibold xl:text-base md:text-sm text-[4px]">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة , حيث أسست علي نمط الشراكة الحديثة لوجود الخبرات في شتي مجال القانون الجنائي</h1>
