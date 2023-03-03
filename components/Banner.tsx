@@ -47,8 +47,9 @@ const Banner = (props: Props) => {
             <div className="absolute z-20 flex flex-col items-center justify-center md:space-y-5 space-y-2 md:top-[60%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <h1 className="xl:text-4xl md:text-2xl text-sm lg:w-full md:w-[500px] font-cairo font-extrabold text-[#191248]">مرحبا بك فى مؤسسة نصر و سعد للمحاماه </h1>
                 <h2 className="xl:text-4xl md:text-2xl text-sm md:w-full w-96 font-cairo font-extrabold text-[#191248]">تأسست فى عام 2020 </h2>
-                <p className="text-center xl:text-2xl md:text-lg lg:w-full md:w-[500px] w-72 text-[10px] font-cairo font-medium text-white">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة , حيث أسست علي
-                    نمط الشراكة الحديثة لوجود الخبرات في شتي مجال القانون الجنائي تسأسست علي يد المستشار الدكتور /محمود نصر
+                <p className="text-center xl:text-2xl md:text-lg lg:w-full md:w-[500px] w-72 text-[10px] font-cairo font-medium text-white">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة , حيث تأسست علي
+                    نمط الشراكة الحديثة لوجود الخبرات في شتى مجالات القانون الجنائي </p>
+                <p className="text-center xl:text-2xl md:text-lg lg:w-full md:w-[500px] w-72 text-[10px] font-cairo font-medium text-white">تأسست علي يد المستشار الدكتور /محمود نصر
                     رئيس محكمة الجنايات وامن الدوله الاسبق و المستشار الدكتور/ وليد سعد المحام بالنقض</p>
             </div>
             <div className="absolute z-20 md:top-[90%] top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">

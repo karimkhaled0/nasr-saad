@@ -21,12 +21,12 @@ const About = (props: Props) => {
                     </ul>
                     <ul className="flex items-center space-x-5">
                         <li className="md:w-[600px] xs:w-[300px] w-[250px] xl:text-xl md:text-lg xs:text-xs text-[10px] font-cairo font-semibold">تضم المؤسسة نخبة من المحامين علي اعلي درجات المهارة
-                            والكفاءه والدرايه التامة وذلك لتقديم الأستشارات الازمة والمتعله بكافه مجالات القانون الجنائي  </li>
+                            والكفاءه والدرايه التامة وذلك لتقديم الأستشارات اللازمة والمتعلقه بكافه مجالات القانون الجنائي  </li>
                         <li>⦿</li>
                     </ul>
                     <ul className="flex items-center space-x-5">
-                        <li className="md:w-[600px] xs:w-[300px] w-[250px] xl:text-xl md:text-lg xs:text-xs text-[10px] font-cairo font-semibold">تتميز المؤسسة بتقديم الخدمات القانونية علي اعلي مستوي من التطوير والجدية
-                            والدقة فلديها بالخبرات المتخصصة في الأستشارات الخاصه بالقضايا الجنائيه</li>
+                        <li className="md:w-[600px] xs:w-[300px] w-[250px] xl:text-xl md:text-lg xs:text-xs text-[10px] font-cairo font-semibold">تتميز المؤسسة بتقديم الخدمات القانونية علي اعلى مستوى من التطوير والجدية
+                            والدقة فلديها الخبرات المتخصصة في الأستشارات الخاصه بالقضايا الجنائيه</li>
                         <li>⦿</li>
                     </ul>
                 </div>
