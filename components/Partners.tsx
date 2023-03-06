@@ -38,8 +38,7 @@ const Partners = (props: Props) => {
                         <div className="space-y-1">
                             <h1 className="xl:text-2xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-black">المستشار الدكتور / محمود نصر</h1>
                             <h4 className="xl:text-xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-[#B1853D]">محام بالنقض</h4>
-                            <h4 className="xl:text-xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-[#B1853D]">رئيس محكمة الجنايات الاسبق</h4>
-                            <h4 className="xl:text-xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-[#B1853D]">وأمن الدولة العليا الاسبق</h4>
+                            <h4 className="xl:text-xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-[#B1853D]">رئيس محكمة الجنايات و أمن الدولة العليا الاسبق</h4>
                         </div>
                     </div>
                     <div className="text-right xl:space-y-8 md:space-y-5 space-y-2 xl:order-3 order-2">
@@ -81,6 +80,7 @@ const Partners = (props: Props) => {
                         <div className="space-y-1">
                             <h1 className="xl:text-2xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-black">المستشار الدكتور / وليد سعد</h1>
                             <h4 className="xl:text-xl w-96 text-center md:text-sm text-[10px] font-cairo font-extrabold text-[#B1853D]">محام بالنقض</h4>
+
                         </div>
 
                     </div>

@@ -103,7 +103,7 @@ const Contact = (props: Props) => {
                         </form>
                     </div>
                     <div className="p-4 xl:h-full md:h-96 h-60 md:order-1 space-y-2 md:space-y-0 relative">
-                        <h1 className="text-center font-cairo font-extrabold xs:text-base text-xs md:absolute md:z-30 md:top-10 md:w-full md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2">Google Maps اضغط على العلامة للذهاب الى</h1>
+                        <h1 className="text-center font-cairo font-extrabold md:text-xl xs:text-base text-xs md:absolute md:z-30 md:top-10 md:w-full md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 animate-pulse">Google Maps اضغط على العلامة للذهاب الى</h1>
                         <Map
                             mapStyle="mapbox://styles/mapbox/streets-v12"
                             mapboxAccessToken="pk.eyJ1Ijoia2FyaW1raGFsZWRlbG1hd2UiLCJhIjoiY2wxa3l4bDRjMDN6ZDNjb2JnbWpzbGVncSJ9.Hr7IeGn4060vCiHaeJH1Zw"
