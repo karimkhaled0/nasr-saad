@@ -108,8 +108,8 @@ const Contact = (props: Props) => {
                             mapStyle="mapbox://styles/mapbox/streets-v12"
                             mapboxAccessToken="pk.eyJ1Ijoia2FyaW1raGFsZWRlbG1hd2UiLCJhIjoiY2wxa3l4bDRjMDN6ZDNjb2JnbWpzbGVncSJ9.Hr7IeGn4060vCiHaeJH1Zw"
                             initialViewState={{
-                                longitude: 31.357692,
-                                latitude: 30.0643358,
+                                longitude: 31.3579951,
+                                latitude: 30.0644273,
                                 zoom: 15,
                             }}
                             style={{
@@ -117,15 +117,15 @@ const Contact = (props: Props) => {
                             }}
                         >
                             <Marker
-                                longitude={31.357692}
-                                latitude={30.0643358}
+                                longitude={31.3579951}
+                                latitude={30.0644273}
                                 anchor="right"
                                 color="#FF0000"
                                 style={{
                                     cursor: "pointer",
                                 }}
                                 onClick={() => {
-                                    window.open("https://www.google.com/maps/place/30%C2%B003'51.6%22N+31%C2%B021'19.8%22E/@30.0641908,31.3540112,17.67z/data=!4m4!3m3!8m2!3d30.0643404!4d31.3555033", "_blank")
+                                    window.open("https://www.google.com/maps/place/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+%D9%86%D8%B5%D8%B1+%D9%88+%D8%B3%D8%B9%D8%AF+%D9%84%D9%84%D9%85%D8%AD%D8%A7%D9%85%D8%A7%D9%87+%D9%88+%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9%E2%80%AD/@30.0644273,31.3579951,19z/data=!4m12!1m5!3m4!2zMzDCsDAzJzUxLjYiTiAzMcKwMjEnMTkuOCJF!8m2!3d30.0643333!4d31.3555!3m5!1s0x14583d1ebe8ec3ff:0x12c31c68678993a9!8m2!3d30.0643358!4d31.357692!16s%2Fg%2F11schrc8z9", "_blank")
                                 }}
                             ></Marker>
                         </Map>

@@ -80,7 +80,7 @@ const Footer = (props: Props) => {
                             className='absolute right-0 md:w-[150px] md:h-[141px] w-[50px] h-[50px]'
                         />
                     </div>
-                    <h1 className="absolute md:-bottom-8 -bottom-0 font-cairo font-semibold xl:text-base md:text-sm text-[4px]">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة , حيث أسست علي نمط الشراكة الحديثة لوجود الخبرات في شتي مجال القانون الجنائي</h1>
+                    <h1 className="absolute md:-bottom-8 -bottom-0 font-cairo font-semibold xl:text-base md:text-sm text-[4px]">مؤسسة نصر وسعد للمحاماه والإستشارات القانونية تقدم خدمات قانونية متكاملة , حيث أسست علي نمط الشراكة الحديثة لوجود الخبرات في شتى مجال القانون الجنائي</h1>
                 </div>
             </div>
             <hr className="h-1 bg-[#B1853D]" />

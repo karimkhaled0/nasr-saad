@@ -49,10 +49,11 @@ const Banner = (props: Props) => {
                 <h2 className="xl:text-4xl md:text-2xl text-sm md:w-full w-96 font-cairo font-extrabold text-[#191248]">تأسست فى عام 2020 </h2>
                 <p className="text-center xl:text-2xl md:text-lg lg:w-full md:w-[500px] w-72 text-[10px] font-cairo font-medium text-white">مؤسسة نصر وسعد للمحاماه والأستشارات القانونية تقدم خدمات قانونيه متكاملة , حيث تأسست علي
                     نمط الشراكة الحديثة لوجود الخبرات في شتى مجالات القانون الجنائي </p>
-                <p className="text-center xl:text-2xl md:text-lg lg:w-full md:w-[500px] w-72 text-[10px] font-cairo font-medium text-white">تأسست علي يد المستشار الدكتور /محمود نصر
-                    رئيس محكمة الجنايات وامن الدوله الاسبق و المستشار الدكتور/ وليد سعد المحام بالنقض</p>
+                <p className="text-center xl:text-2xl md:text-lg lg:w-full md:w-[500px] w-72 text-[10px] font-cairo font-medium text-white">تأسست علي يد ● المستشار الدكتور /محمود نصر
+                    رئيس محكمة الجنايات وأمن الدوله الاسبق</p>
+                <p className="text-center xl:text-2xl md:text-lg lg:w-full md:w-[500px] w-72 text-[10px] font-cairo font-medium text-white 2xl:mr-[10px] xl:mr-[58px] lg:mr-[45px] md:mr-[105px] mr-7">المستشار الدكتور/ وليد سعد المحام بالنقض ●</p>
             </div>
-            <div className="absolute z-20 md:top-[90%] top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute z-20 xl:top-[93%] md:top-[90%] top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <button className="md:py-3 md:px-12 py-1 px-6 shadow-lg bg-[#191248] rounded-xl text-white font-cairo font-semibold xl:text-lg md:text-base text-[10px]"><a href="#about">إقرا المزيد</a></button>
             </div>
             {/* Statue */}
