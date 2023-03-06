@@ -34,7 +34,7 @@ const Services = (props: Props) => {
                             <p className="ml-0.5">●</p></h4>
                         <h4 className="md:text-base text-xs text-right text-[#191248] font-cairo font-semibold tracking-wide flex">
                             حضور الجلسات الخاصة بالموضوع أمام محاكم الجنايات و الجنح
-                            المستنأفة و ذلك للمرافعة و تقديم المذكرات و اثبات البراءة
+                            المستأنفة و ذلك للمرافعة و تقديم المذكرات و اثبات البراءة
                             و على رأس هذا القسم المستشار الدكتور / وليد سعد
                             <p className="ml-0.5">●</p> </h4>
                     </div>
@@ -63,7 +63,7 @@ const Services = (props: Props) => {
                     <h4 className="xl:text-lg md:text-base xs:text-[7px] text-[6px] text-center xl:w-[700px] lg:w-[600px] md:w-[500px] xxs:w-[250px] w-[200px] text-white font-cairo font-semibold tracking-wide absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                         تقديم الاستشارة و المشورة و المساعدة القانونية من خلال فريق
                         العمل و ذلك بعد المداولة فيها و عرض الرأى و تقديمها لطالبها
-                        بأفضل و انسب و اقوى حل في الاستشارة المطلوية
+                        بأفضل و انسب و اقوى حل في الاستشارة المطلوبة
                         و على رأس هذا القسم السيد المستشار الدكتور / محمود نصر
                     </h4>
                 </div>

@@ -7,3 +7,6 @@
 .mapboxgl-ctrl-logo {
     @apply hidden !important
 }
+.mapboxgl-ctrl-attrib.mapboxgl-compact {
+    @apply hidden !important
+}
