@@ -108,8 +108,8 @@ const Contact = (props: Props) => {
                             mapStyle="mapbox://styles/mapbox/streets-v12"
                             mapboxAccessToken="pk.eyJ1Ijoia2FyaW1raGFsZWRlbG1hd2UiLCJhIjoiY2wxa3l4bDRjMDN6ZDNjb2JnbWpzbGVncSJ9.Hr7IeGn4060vCiHaeJH1Zw"
                             initialViewState={{
-                                longitude: 31.3555033,
-                                latitude: 30.0643404,
+                                longitude: 31.357692,
+                                latitude: 30.0643358,
                                 zoom: 15,
                             }}
                             style={{
@@ -117,8 +117,8 @@ const Contact = (props: Props) => {
                             }}
                         >
                             <Marker
-                                longitude={31.3555033}
-                                latitude={30.0643404}
+                                longitude={31.357692}
+                                latitude={30.0643358}
                                 anchor="right"
                                 color="#FF0000"
                                 style={{
